@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url('banner.jpg');
+    background-size: cover;
+}
+.container{
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-top: 180px;
+  border-radius: 30px;
+  padding: 50px;
+  max-width: 700px;
+  overflow: hidden;
+  border: 3px solid black;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 12px 50px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.increment-btn{
+  background-color: blue;
+}
+
+.save-btn{
+  background-color: green;
+}
+
+.decrement-btn{
+  background-color: red;
+}
+
+#save-el{
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
